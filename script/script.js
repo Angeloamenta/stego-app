@@ -1,4 +1,3 @@
-
 var app = new Vue({
     el: '#app',
     data: {
@@ -10,6 +9,7 @@ var app = new Vue({
         elonmusk(sound) {
            var audio = new Audio(sound);
             audio.play();
+            console.log("a");
         }
     }
   })
