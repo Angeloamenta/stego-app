@@ -16,6 +16,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+
 #app{
   width: 100%;
   min-height: 100vh;
@@ -27,6 +28,11 @@ body {
   align-items: center;
 }
 
+.stegoapp {
+  color: white;
+  font-weight: 700;
+
+}
 
 @keyframes animate{
   0%{
