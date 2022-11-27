@@ -28,6 +28,10 @@ body {
   align-items: center;
 }
 
+h1 {
+  text-shadow: 0 0 20px black, 0 0 10px black;
+}
+
 .stegoapp {
   color: white;
   font-weight: 700;
@@ -87,6 +91,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   font-size: 30px;
   margin-top: -80px;
   height: 40px;
+  text-shadow: 0 0 20px black, 0 0 10px black;
 }
 
 .card:hover {
