@@ -10,6 +10,16 @@ var app = new Vue({
            var audio = new Audio(sound);
             audio.play();
             console.log("a");
+        },
+
+        settete() {
+          // var image = document.getElementById('stegoimg')
+          var bonus = document.getElementById('bonusbar')
+
+          bonus.classList.toggle("d-none");
+          
+
+    
         }
     }
   })

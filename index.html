@@ -13,6 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Stego-App</title>
 </head>
 <body>
@@ -21,8 +22,11 @@
       <div class="title-cont d-flex justify-content-around p-3 w-100">
         <h1 class="stegoapp">STEGO-APP</h1>
         <div>
-          <img class="cm d-lg-none" src="img/cm.jpg" alt="">
+          <img @click="settete()" id="stegoimg" class="cm d-lg-none" src="img/cm.jpg" alt="">
         </div>
+      </div>
+      <div id="bonusbar" class="bonus-bar d-flex justify-content-end bg-black p-2 d-none">
+        <h1>Bonus</h1> <a class="mx-3" href="#bonus"><i class="fa-solid fa-arrow-down"></i></a>
       </div>
       
        <div class="cards-list">
@@ -362,7 +366,7 @@
         <!-- chiusura -->
       </div>
 
-      <div class="title-cont d-flex justify-content-center p-3">
+      <div id="bonus" class="title-cont d-flex justify-content-center p-3">
         <h1 class="stegoapp">BONUS</h1>
       </div>
 

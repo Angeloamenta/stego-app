@@ -226,5 +226,14 @@ p {
 bottom: -45px;
 left: 0;
 right: 10px;
+font-size: 13px;
 
+}
+
+.bonus-bar {
+  color: white;
+}
+
+.bonus-bar h1 {
+  font-size: 20px !important;
 }
