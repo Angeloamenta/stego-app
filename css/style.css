@@ -206,3 +206,17 @@ html {
   width: 50px;
   border-radius: 50%;
 }
+
+.bit {
+width: 50px;
+}
+
+footer {
+  color: white;
+  font-weight: 500;
+}
+
+.im {
+  background-color: white;
+  border-radius: 50%;
+}
